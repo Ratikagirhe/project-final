@@ -11019,6 +11019,7 @@ pre {
 .socials .social-item {
   display: block;
   margin: 0 5px;
+  padding: 0px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -11029,6 +11030,9 @@ pre {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   text-decoration: none;
+}
+.socials .social-item a li {
+  margin : 0px ;
 }
 
 .socials .social-item:hover {
@@ -11353,6 +11357,12 @@ pre {
   width: 75px;
   -webkit-filter: drop-shadow(1px 2px 25px rgba(206, 212, 218, 0.9));
           filter: drop-shadow(1px 2px 25px rgba(206, 212, 218, 0.9));
+}
+
+.navbar .navbar-brand h1 {
+  font-weight: 700;
+  /* font-size: x-large; */
+  color: #ff7a57;
 }
 
 .navbar .navbar-nav {
